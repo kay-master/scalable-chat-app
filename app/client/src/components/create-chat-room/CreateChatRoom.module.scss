@@ -1,0 +1,66 @@
+/* OnlineUsers.module.scss */
+.newChatRoomContainer {
+  margin-bottom: 25px;
+
+  .title {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      background: rgb(254 31 92 / 8%);
+      color: #fe1f5c;
+      padding: 2px 4px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid #fe1f5c;
+      border-radius: 4px;
+    }
+  }
+
+  .newChatRoomForm {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+
+    input {
+      flex: 1;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      padding: 10px 15px;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      outline: none;
+      border-radius: 6px 0 0 6px;
+      border-right: none;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 10px 8px;
+      border-radius: 0 6px 6px 0;
+      background-color: #555;
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      border: 1px solid #555;
+
+      &:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .newChatRoomList {
+    display: flex;
+    column-gap: 9px;
+    overflow: auto hidden;
+  }
+}

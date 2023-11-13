@@ -1,0 +1,19 @@
+# compiled output
+/dist
+.vscode/
+/tmp
+/out-tsc
+.nx/
+
+# dependencies
+node_modules
+
+# IDE - VSCode
+.editorconfig
+.vscode/*
+
+# System Files
+.DS_Store
+
+services/db/redis
+services/db/mysql

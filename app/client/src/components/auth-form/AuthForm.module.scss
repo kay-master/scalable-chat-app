@@ -1,0 +1,83 @@
+.authFormContainer {
+  width: 100%;
+  padding-top: 70px;
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  .authField {
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    input {
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      padding: 10px 15px;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      outline: none;
+      border-radius: 6px;
+    }
+  }
+
+  .error {
+    color: #f54a4a;
+    font-size: 14px;
+  }
+
+  .authBtnContainer {
+    padding-top: 12px;
+  }
+
+  .authBtn {
+    cursor: pointer;
+    padding: 12px 8px;
+    border-radius: 6px;
+    background-color: #555;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #555;
+    width: 100%;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+  }
+
+  .authQuestion {
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: center;
+
+    button {
+      border: none;
+      background: transparent;
+      text-decoration: underline;
+      color: #1f85fe;
+      padding: 0;
+      font-weight: 400;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}

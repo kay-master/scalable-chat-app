@@ -1,0 +1,39 @@
+.userChatContainer {
+  padding: 6px 18px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  display: block;
+  width: 100%;
+  text-align: left;
+
+  &.userChatActive {
+    background-color: #e1e1e1;
+  }
+
+  > div {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  .userChatDetails {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    row-gap: 2px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .username {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .time {
+    font-weight: 400;
+    font-size: 14px;
+    color: #7c7c7c;
+  }
+}

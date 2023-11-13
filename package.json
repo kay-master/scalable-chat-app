@@ -1,0 +1,20 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Real-time app",
+  "main": "index.js",
+  "scripts": {
+    "client": "pnpm nx run @app/client:dev",
+    "server": "pnpm nx run @app/server:dev",
+    "dev": "pnpm --recursive --parallel --stream run dev",
+    "server:test": "pnpm nx run @app/server:test",
+    "server:seed": "pnpm nx run @app/server:sq-cli db:seed:all",
+    "server:migrate": "pnpm nx run @app/server:sq-cli db:migrate"
+  },
+  "keywords": [],
+  "author": "@kay-master",
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "^17.0.2"
+  }
+}

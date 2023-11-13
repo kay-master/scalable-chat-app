@@ -1,0 +1,40 @@
+.appContainer {
+  display: flex;
+  height: 100%;
+
+  .appLeftSection {
+    max-width: 310px;
+    width: 100%;
+    border-right: 1px solid var(--border);
+    background-color: var(--white);
+
+    > div {
+      padding: 20px 0 0;
+    }
+  }
+
+  .socketConnection {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 18px;
+    margin-top: -11px;
+    margin-bottom: 5px;
+
+    .disconnected,
+    .connected {
+      border: 1px solid transparent;
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+
+    .disconnected {
+      color: #fe1f5c;
+      border-color: #fe1f5c;
+    }
+
+    .connected {
+      border-color: #159909;
+      color: #159909;
+    }
+  }
+}

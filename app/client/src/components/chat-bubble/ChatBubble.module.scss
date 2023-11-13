@@ -1,0 +1,47 @@
+.chatBubbleContainer {
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  display: flex;
+
+  &:first-child {
+    margin-bottom: 0;
+  }
+
+  .chatBubble {
+    max-width: 400px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    color: #555;
+    flex: 1;
+    border-radius: 18px;
+    border-top-left-radius: 0;
+
+    > div {
+      padding: 10px 26px;
+    }
+
+    .chatContent {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+
+    .time {
+      font-size: 12px;
+      text-align: right;
+      line-height: 12px;
+    }
+  }
+
+  &.chatOwner {
+    justify-content: flex-end;
+
+    .chatBubble {
+      border-top-left-radius: 18px;
+      border-top-right-radius: 0;
+      background-color: #1f85fe;
+      border-color: #1f85fe;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ES2015",
+		"module": "commonjs",
+		"sourceMap": true,
+		"outDir": "./build",
+		"rootDir": "./src",
+		"allowJs": true,
+		/* Strict Type-Checking Options */
+		"strict": true,
+		"noImplicitAny": true,
+		/* Module Resolution Options */
+		"moduleResolution": "node",
+		"baseUrl": "./src",
+		"esModuleInterop": true,
+		/* Advanced Options */
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"lib": [
+		"es2015"
+	],
+	"include": [
+		"src/**/*",
+	],
+	"exclude": [
+		"node_modules",
+		"./dist",
+		"./app/tests",
+		"jest.config.js"
+	]
+}

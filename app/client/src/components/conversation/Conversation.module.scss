@@ -1,0 +1,69 @@
+.conversationContainer {
+  flex-grow: 1;
+  flex-basis: 0;
+
+  .conversationTop {
+    padding: 15px 40px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--border);
+
+    > div {
+      display: flex;
+      align-items: center;
+      column-gap: 18px;
+    }
+  }
+
+  .conversationTopDetails {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .conversationTopUsername {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .conversationTopActivity {
+    color: #8e8e8e;
+    font-size: 14px;
+  }
+
+  .conversationMain {
+    padding: 15px 40px;
+    height: calc(100vh - 188px);
+    background-color: #edebeb;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .conversationBottom {
+    background-color: var(--white);
+    border-top: 1px solid var(--border);
+    padding: 15px;
+  }
+
+  .needChat {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 200;
+      color: #555;
+    }
+  }
+
+  .emptyConvo {
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}

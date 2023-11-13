@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "local",
+    "port": 3307,
+    "host": "127.0.0.1",
+    "dialect": "mariadb"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "chat_app_test",
+    "host": "127.0.0.1",
+    "dialect": "mariadb"
+  }
+}
