@@ -137,24 +137,15 @@ They facilitate communication, room management, and user engagement, ensuring a 
 
 # Missing Deliverables
 
-This section outlines the aspects of the project that were planned but could not be fully implemented due to various reasons. It provides transparency about what remains to be done.
-
-I was unable to conduct the tests as required due to the significant demands on my time, which required me to balance my professional commitments and the take-home assessment. My work responsibilities had left me with a full schedule, making it challenging to complete the tests within the time-frame.
-
-I apologize for any inconvenience this may have caused.
+This section outlines the aspects of the project that were planned but could not be fully implemented due to various reasons.
 
 ## Setup of RabbitMQ
 
 - **Description:** The initial plan included the setup of RabbitMQ, a message broker, to enable the logging of certain server events.
-- **Reason:** Due to unforeseen circumstances, the RabbitMQ integration was not completed.
 - **Status:** This feature remains pending
 
 ## Tracking User Online Statuses Using Redis
-
-- **Description:** The project intended to implement user online status tracking using Redis.
-- **Reason:** The feature was not fully implemented due to time constraints and I had to prioritize tasks.
+The project intended to implement user online status tracking using Redis.
 
 ## Unit Testing and API Testing
-
-- **Description:** The project planned to include unit testing and API testing as part of the quality assurance process.
-- **Reason:** Due to unforeseen circumstances and time limitations critical development tasks took precedence, resulting in the inability to conduct comprehensive testing.
+The project planned to include unit testing and API testing as part of the quality assurance process.
